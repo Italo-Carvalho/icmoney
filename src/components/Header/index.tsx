@@ -5,7 +5,7 @@ interface HeaderProps {
     onOpenNewTranslationModal: () => void;
 }
 
-export function Header({ onOpenNewTranslationModal }: HeaderProps) {
+export function Header({ onOpenNewTranslationModal }: HeaderProps) { //props.onOpenNewTranslationModal
     return (
         <Container>
             <Content>
